@@ -61,7 +61,7 @@ export default {
 <style scoped>
 #home {
     text-align: center;
-    background-color: #111111;
+    background-color: #070707;
     color: white;
     min-height: 100vh;
 }

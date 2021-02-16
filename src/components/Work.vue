@@ -7,7 +7,7 @@
                     href="#projects"
                     data-aos="fade-up"
                     data-aos-duration="1500"
-                    class="projectTitleContainer btn btn-outline-danger"
+                    class="projectTitleContainer btn btn-outline-light"
                 >
                     <p class="projectTitle display-2 fw-normal">Projects</p>
                 </a>
@@ -129,7 +129,7 @@ export default {
                         anim: {
                             enable: false,
                             speed: 40,
-                            size_min: 0.1,
+                            size_min: 2,
                             sync: false,
                         },
                     },
@@ -137,7 +137,7 @@ export default {
                         enable: true,
                         distance: 150,
                         color: "#ffffff",
-                        opacity: 0.4,
+                        opacity: 0.5,
                         width: 1,
                     },
                     move: {
@@ -382,7 +382,7 @@ export default {
 
 .particleContainer {
     margin-top: 56px;
-    background-color: #02020A;
+    background-color: #070707;
 }
 
 #particles-js {

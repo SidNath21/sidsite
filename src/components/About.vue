@@ -207,7 +207,7 @@
                                                     updateSkill(
                                                         'HTML5',
                                                         'HTML (Hyper Text Markup Language) is used for structuring and presenting web content.',
-                                                        '80%'
+                                                        '90%'
                                                     )
                                                 "
                                                 style="
@@ -227,7 +227,7 @@
                                                     updateSkill(
                                                         'CSS3',
                                                         'Cascading Style Sheets is a style sheet language used for describing the presentation of an HTML document.',
-                                                        '75%'
+                                                        '80%'
                                                     )
                                                 "
                                                 style="
@@ -267,7 +267,7 @@
                                                     updateSkill(
                                                         'Sass',
                                                         'Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.',
-                                                        '50%'
+                                                        null
                                                     )
                                                 "
                                                 style="
@@ -287,7 +287,7 @@
                                                     updateSkill(
                                                         'Bootstrap',
                                                         'Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. The most popular HTML, CSS, and JS library in the world.',
-                                                        '70%'
+                                                        '75%'
                                                     )
                                                 "
                                                 style="
@@ -307,7 +307,7 @@
                                                     updateSkill(
                                                         'Vue.js',
                                                         'Vue.js is a progressive framework for JavaScript used to build web interfaces and one-page applications.',
-                                                        '65%'
+                                                        '75%'
                                                     )
                                                 "
                                                 style="
@@ -327,7 +327,7 @@
                                                     updateSkill(
                                                         'Firebase',
                                                         `Firebase is Google's mobile platform that helps you quickly develop high-quality apps and grow your business. Firebase helps accelerate app development with fully managed backend infrastructure.`,
-                                                        '50%'
+                                                        null
                                                     )
                                                 "
                                                 style="
@@ -347,7 +347,7 @@
                                                     updateSkill(
                                                         'Android Studio',
                                                         `Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.`,
-                                                        '50%'
+                                                        null
                                                     )
                                                 "
                                                 style="
@@ -447,7 +447,7 @@
                                                     updateSkill(
                                                         'Node.js',
                                                         `Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the Chrome V8 engine and executes JavaScript code outside a web browser. Node.js is designed to build scalable network applications.`,
-                                                        '50%'
+                                                        null
                                                     )
                                                 "
                                                 style="
@@ -888,12 +888,12 @@ export default {
 
 .profileSection {
     padding: 100px 0;
-    background-color: #111111;
+    background-color: #070707;
 }
 
 .infoSection {
     padding: 100px 0;
-    background-color: #1a191b;
+    background-color: #111111;
 }
 
 .accordion-body {

@@ -2,7 +2,7 @@
     <div id="nav">
         <nav
             class="navbar fixed-top navbar-expand-sm navbar-dark py-2"
-            style="background-color: #070707"
+            style="background-color: #000000"
         >
             <div class="container">
                 <!-- container-fluid -->
@@ -110,10 +110,6 @@ export default {
 </script>
 
 <style scoped>
-
-.navbar{
-    /* border-bottom: 1px solid white; */
-}
 
 .link span {
     margin-left: 5px;
