@@ -97,7 +97,7 @@
                                 <hr />
                                 <p class="card-text lead">
                                     I am passionate about applying new
-                                    technologies to design <em>elegent</em> and
+                                    technologies to design <em>elegant</em> and
                                     <em>efficient</em> solutions through
                                     creative problem solving and innovative
                                     thinking💡.

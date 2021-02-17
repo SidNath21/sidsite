@@ -234,21 +234,6 @@ export default {
                     ],
                 },
                 {
-                    title: "Heptool App",
-                    heading: "Mobile App designed to analyze Hepatitis B",
-                    description:
-                        "Build with Andriod Studios Framework to inform users about Hepatitis B and calculate a patient's health risks.",
-                    link:
-                        "https://play.google.com/store/apps/details?id=heptool3.java",
-                    animation: "fade-left",
-                    languages: [
-                        {
-                            name: "Java",
-                            color: "rgb(176, 114, 25)",
-                        },
-                    ],
-                },
-                {
                     title: "Saucer",
                     heading: "A Digital Solution to Food Waste",
                     description:
@@ -333,6 +318,21 @@ export default {
                         {
                             name: "Python",
                             color: "#ACB5BD",
+                        },
+                    ],
+                },
+                {
+                    title: "Heptool App",
+                    heading: "Mobile App designed to analyze Hepatitis B",
+                    description:
+                        "Build with Andriod Studios Framework to inform users about Hepatitis B and calculate a patient's health risks.",
+                    link:
+                        "https://play.google.com/store/apps/details?id=heptool3.java",
+                    animation: "fade-left",
+                    languages: [
+                        {
+                            name: "Java",
+                            color: "rgb(176, 114, 25)",
                         },
                     ],
                 },
