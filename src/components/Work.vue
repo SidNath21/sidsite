@@ -239,7 +239,7 @@ export default {
                     description:
                         "Saucer is a solution to food waste by recommending users suitable recipes based on the items they already have. ",
                     link: "https://saucer.tech/",
-                    animation: "fade-right",
+                    animation: "fade-left",
                     languages: [
                         {
                             name: "Vue",
@@ -261,7 +261,7 @@ export default {
                     description:
                         "An app that promotes a healthy social media environment by filtering negative comments from a user’s profile",
                     link: "https://twittersecurity-dbc5b.web.app/",
-                    animation: "fade-left",
+                    animation: "fade-right",
                     languages: [
                         {
                             name: "Vue",
@@ -285,9 +285,9 @@ export default {
                     title: "Covidualize",
                     heading: "An interactive Covid-19 informational app",
                     description:
-                        "An interactive data tool that displays Covid-19 statisticts while implementing a 3-D model of the Earth.",
+                        "An interactive data tool that displays Covid-19 statistics while implementing a 3-D model of the Earth.",
                     link: "https://sidnath21.github.io/Covidualize/",
-                    animation: "fade-right",
+                    animation: "fade-left",
                     languages: [
                         {
                             name: "HTML",
@@ -313,7 +313,7 @@ export default {
                     description:
                         "Algorithims to analyze peptide sequences generated from the proteins of the Covid-19 virus. ",
                     link: "https://github.com/SidNath21/PeptideAnalysis",
-                    animation: "fade-left",
+                    animation: "fade-right",
                     languages: [
                         {
                             name: "Python",
@@ -325,7 +325,7 @@ export default {
                     title: "Heptool App",
                     heading: "Mobile App designed to analyze Hepatitis B",
                     description:
-                        "Build with Andriod Studios Framework to inform users about Hepatitis B and calculate a patient's health risks.",
+                        "Build with Android Studios Framework to inform users about Hepatitis B and calculate a patient's health risks.",
                     link:
                         "https://play.google.com/store/apps/details?id=heptool3.java",
                     animation: "fade-left",
@@ -340,7 +340,7 @@ export default {
                     title: "Wiki Notes",
                     heading: "Wikipedia Based Note Taker App",
                     description:
-                        "Wiki Note Taker extracts information from Wikipedia and converts information into slides. Included functionality for editing, adding, and printing notes",
+                        "Wiki Note Taker extracts information from Wikipedia and converts information into slides. Included functionality for editing, adding, and printing notes.",
                     link: "https://devpost.com/software/wikinotes",
                     animation: "fade-right",
                     languages: [
@@ -358,7 +358,7 @@ export default {
                     title: "Intersight-Ansible",
                     heading: "Automate Cisco Server Deployment Process",
                     description:
-                        "During my Cisco High School STEM Internship, I used Ansible and Cisco Intersight to create server policies to automate server environments",
+                        "During my Cisco High School STEM Internship, I used Ansible and Cisco Intersight to create server policies to automate server environments.",
                     link: "https://github.com/SidNath21/intersight-ansible",
                     animation: "fade-left",
                     languages: [

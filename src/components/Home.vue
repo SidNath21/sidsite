@@ -1,9 +1,7 @@
 <template>
     <div id="home" style="padding-top: 150px">
         <div class="container">
-            <!-- <div class="typewriter">
-                <h1>I am Sid Nath. <span> Innovator. Programmer. Learner. </span> </h1>
-            </div> -->
+         
 
             <h1
                 data-aos="fade-right"
