@@ -203,6 +203,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'HTML5',
@@ -223,6 +224,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'CSS3',
@@ -243,10 +245,11 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'JavaScript',
-                                                        'JavaScript is a programming langauge that enables interactive web pages by monitering client-side page behavior.',
+                                                        'JavaScript is a programming langauge that enables interactive web pages by monitoring client-side page behavior.',
                                                         '85%'
                                                     )
                                                 "
@@ -263,6 +266,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Sass',
@@ -283,6 +287,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Bootstrap',
@@ -303,6 +308,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Vue.js',
@@ -323,6 +329,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Firebase',
@@ -343,6 +350,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Android Studio',
@@ -363,6 +371,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Flutter',
@@ -383,6 +392,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Java',
@@ -403,6 +413,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Python',
@@ -423,6 +434,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Git',
@@ -443,6 +455,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'Node.js',
@@ -463,6 +476,7 @@
                                             <a
                                                 class="btn btn-primary"
                                                 role="button"
+                                                href="#skillID"
                                                 @click="
                                                     updateSkill(
                                                         'npm',
@@ -484,7 +498,8 @@
 
                                     <div v-if="skill != null" class="my-2">
                                         <div
-                                            class="alert alert-dark shadow"
+                                            class="alert alert-dark shadow my-2"
+                                            id="skillID"
                                             role="alert"
                                         >
                                             <dl class="row my-0">
@@ -671,6 +686,7 @@
                                             href="https://docs.google.com/document/d/1JCZK4_QORThq3AR0Ojhuvx463SSnY9vBORd3EkZWUWA/edit?usp=sharing"
                                             target="_blank"
                                             role="button"
+
                                             class="btn btn-outline-light fs-5 fw-light m-2"
                                             >Complete Resume</a
                                         >
@@ -679,6 +695,7 @@
                                             href="https://drive.google.com/file/d/1fioDA7n8YQhdN5U4PsWTP7X5Gw7nbuiA/view?usp=sharing"
                                             target="_blank"
                                             role="button"
+
                                             class="btn btn-outline-light fs-5 fw-light m-2"
                                             >High School Transcript</a
                                         >
@@ -688,13 +705,11 @@
                                         <h4 class="topic fs-5">Academics</h4>
                                         <ul>
                                             <li>
-                                                GPA: 3.993/4.00 | 4.644
-                                                (Weighted)
+                                                GPA: 3.99/4.00 | 4.64
                                             </li>
                                             <li>ACT: 35/36 (99+ Percentile)</li>
                                             <li>
-                                                SAT: 800/800 Math II , 750/800
-                                                Chemistry
+                                                SAT: 800/800 Math II
                                             </li>
                                         </ul>
 
@@ -805,7 +820,7 @@
                                             </li>
                                             <li>Varsity Badminton Team</li>
                                             <li>YMCA Basketball Coach</li>
-                                            <li>Stock Analysist</li>
+                                            <li>Stock Analysis</li>
                                         </ul>
 
                                         <br />
