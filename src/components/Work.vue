@@ -64,11 +64,13 @@
                                             class="circle"
                                             :style="{
                                                 'background-color':
-                                                    language.color,
+                                                    language_color_dict[
+                                                        language
+                                                    ],
                                             }"
                                         ></div>
                                         <p class="name my-0">
-                                            {{ language.name }}
+                                            {{ language }}
                                         </p>
                                     </div>
                                 </div>
@@ -136,7 +138,7 @@ export default {
                     line_linked: {
                         enable: true,
                         distance: 150,
-                        color: "#ffffff",
+                        color: "#dc3545", // #ffffff
                         opacity: 0.5,
                         width: 1,
                     },
@@ -206,6 +208,16 @@ export default {
     },
     data() {
         return {
+            language_color_dict: {
+                Python: "#ACB5BD",
+                HTML: "#fd7e14",
+                CSS: "#0FCAF0",
+                Javascript: "#ffc107",
+                Vue: "#42b883",
+                "Tensorflow.js": "#0d6efd",
+                "Three.js": "#009EF4",
+                Java: "rgb(176, 114, 25)",
+            },
             projects: [
                 {
                     title: "Heptool",
@@ -214,24 +226,7 @@ export default {
                         "An application used to calculate a patient's health risks for Hepatitis B using a Mathematical Markov Model.",
                     link: "http://www.heptool.org/",
                     animation: "fade-right",
-                    languages: [
-                        {
-                            name: "Python",
-                            color: "#ACB5BD",
-                        },
-                        {
-                            name: "HTML",
-                            color: "#fd7e14",
-                        },
-                        {
-                            name: "CSS",
-                            color: "#0FCAF0",
-                        },
-                        {
-                            name: "Javascript",
-                            color: "#ffc107",
-                        },
-                    ],
+                    languages: ["Python", "HTML", "CSS", "Javascript"],
                 },
                 {
                     title: "Saucer",
@@ -240,20 +235,7 @@ export default {
                         "Saucer is a solution to food waste by recommending users suitable recipes based on the items they already have. ",
                     link: "https://saucer.tech/",
                     animation: "fade-left",
-                    languages: [
-                        {
-                            name: "Vue",
-                            color: "#42b883",
-                        },
-                        {
-                            name: "HTML",
-                            color: "#fd7e14",
-                        },
-                        {
-                            name: "Javascript",
-                            color: "#ffc107",
-                        },
-                    ],
+                    languages: ["Vue", "HTML", "Javascript"],
                 },
                 {
                     title: "TwitterSecurity",
@@ -262,24 +244,7 @@ export default {
                         "An app that promotes a healthy social media environment by filtering negative comments from a user’s profile",
                     link: "https://twittersecurity-dbc5b.web.app/",
                     animation: "fade-right",
-                    languages: [
-                        {
-                            name: "Vue",
-                            color: "#42b883",
-                        },
-                        {
-                            name: "HTML",
-                            color: "#fd7e14",
-                        },
-                        {
-                            name: "Javascript",
-                            color: "#ffc107",
-                        },
-                        {
-                            name: "Tensorflow.js",
-                            color: "#0d6efd",
-                        },
-                    ],
+                    languages: ["Vue", "HTML", "Javascript", "Tensorflow.js"],
                 },
                 {
                     title: "Covidualize",
@@ -288,24 +253,7 @@ export default {
                         "An interactive data tool that displays Covid-19 statistics while implementing a 3-D model of the Earth.",
                     link: "https://sidnath21.github.io/Covidualize/",
                     animation: "fade-left",
-                    languages: [
-                        {
-                            name: "HTML",
-                            color: "#fd7e14",
-                        },
-                        {
-                            name: "CSS",
-                            color: "#0FCAF0",
-                        },
-                        {
-                            name: "Javascript",
-                            color: "#ffc107",
-                        },
-                        {
-                            name: "Three.js",
-                            color: "#009EF4",
-                        },
-                    ],
+                    languages: ["HTML", "CSS", "Javascript", "Three.js"],
                 },
                 {
                     title: "Peptide Analysis",
@@ -314,27 +262,16 @@ export default {
                         "Algorithims to analyze peptide sequences generated from the proteins of the Covid-19 virus. ",
                     link: "https://github.com/SidNath21/PeptideAnalysis",
                     animation: "fade-right",
-                    languages: [
-                        {
-                            name: "Python",
-                            color: "#ACB5BD",
-                        },
-                    ],
+                    languages: ["Python"],
                 },
                 {
                     title: "Heptool App",
                     heading: "Mobile App designed to analyze Hepatitis B",
                     description:
                         "Build with Android Studios Framework to inform users about Hepatitis B and calculate a patient's health risks.",
-                    link:
-                        "https://play.google.com/store/apps/details?id=heptool3.java",
+                    link: "https://play.google.com/store/apps/details?id=heptool3.java",
                     animation: "fade-left",
-                    languages: [
-                        {
-                            name: "Java",
-                            color: "rgb(176, 114, 25)",
-                        },
-                    ],
+                    languages: ["Java"],
                 },
                 {
                     title: "Wiki Notes",
@@ -343,16 +280,7 @@ export default {
                         "Wiki Note Taker extracts information from Wikipedia and converts information into slides. Included functionality for editing, adding, and printing notes.",
                     link: "https://devpost.com/software/wikinotes",
                     animation: "fade-right",
-                    languages: [
-                        {
-                            name: "HTML",
-                            color: "#fd7e14",
-                        },
-                        {
-                            name: "Java",
-                            color: "rgb(176, 114, 25)",
-                        },
-                    ],
+                    languages: ["HTML", "Java"],
                 },
                 {
                     title: "Intersight-Ansible",
@@ -361,12 +289,16 @@ export default {
                         "During my Cisco High School STEM Internship, I used Ansible and Cisco Intersight to create server policies to automate server environments.",
                     link: "https://github.com/SidNath21/intersight-ansible",
                     animation: "fade-left",
-                    languages: [
-                        {
-                            name: "Python",
-                            color: "#ACB5BD",
-                        },
-                    ],
+                    languages: ["Python"],
+                },
+                {
+                    title: "EmbedUR Internship",
+                    heading: "Automate Cisco Server Deployment Process",
+                    description:
+                        "As an intern for embedUR's data mining / machine learning team, I built machine learning models to analyze client networking data, predict support call-ins, and classify AP devices.",
+                    link: "https://github.com/SidNath21/embedur",
+                    animation: "fade-right",
+                    languages: ["Python"],
                 },
             ],
         };
@@ -422,7 +354,4 @@ export default {
     float: left;
     margin-left: 5px;
 }
-
-
-
 </style>
