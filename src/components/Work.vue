@@ -300,6 +300,15 @@ export default {
                     animation: "fade-right",
                     languages: ["Python"],
                 },
+                {
+                    title: "Multi-Armed Bandit Project",
+                    heading: "Algorithms to Optimize A/B Testing",
+                    description:
+                        "Implemented Multi-Armed Bandit algorithms to optimize A/B testing for a client. Used Upper Confidence Bound and Thompson Sampling algorithms to decrease time spent running inconclusive experiments.",
+                    link: "https://drive.google.com/file/d/14lhPzl3GAmrM3JvcWbXj7FjG0ocdBqXS/view?usp=sharing",
+                    animation: "fade-right",
+                    languages: ["Python"],
+                },
             ],
         };
     },

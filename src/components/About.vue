@@ -30,13 +30,23 @@
                                             alt="Sid Nath"
                                         />
                                     </div>
+
                                     <div class="carousel-item">
                                         <img
-                                            src="../assets/imgsid.jpg"
+                                            src="../assets/IMG_4505.jpeg"
                                             class="d-block w-100 card-img"
                                             alt="Sid Nath"
                                         />
                                     </div>
+
+                                    <div class="carousel-item">
+                                        <img
+                                            src="../assets/IMG_0549_Original.jpg"
+                                            class="d-block w-100 card-img"
+                                            alt="Sid Nath"
+                                        />
+                                    </div>
+                                    
                                     <div class="carousel-item">
                                         <img
                                             src="../assets/IMG_2274.jpg"
@@ -83,10 +93,11 @@
                                     <span>Programmer 💻</span>
                                     <span>Learner 📚</span>
                                 </h3>
+                                <h4> Computer Science at UC Berkeley</h4>
                                 <hr />
                                 <p class="card-text lead">
                                     I am a <mark>motivated</mark> and
-                                    <mark>self-disciplined</mark> highschool
+                                    <mark>self-disciplined</mark>
                                     software developer with extensive
                                     programming skills and a strong passion for
                                     <u>web development</u>, <u>data science</u>,
@@ -602,21 +613,6 @@
                                             class="fs-5 fw-normal"
                                             style="color: var(--bs-red)"
                                         >
-                                            App Development
-                                        </p>
-                                    </dt>
-                                    <dd class="col-sm-9">
-                                        <p class="lead text">
-                                            Android Studios Framework, Currently
-                                            learning Flutter/Dart and Swift.
-                                        </p>
-                                    </dd>
-
-                                    <dt class="col-sm-3">
-                                        <p
-                                            class="fs-5 fw-normal"
-                                            style="color: var(--bs-red)"
-                                        >
                                             Algorithmic Programming
                                         </p>
                                     </dt>
@@ -640,7 +636,22 @@
                                     <dd class="col-sm-9">
                                         <p class="lead text">
                                             Python Libraries - Pandas, Numpy,
-                                            Scikit-Learn
+                                            Scikit-Learn, Matplotlib
+                                        </p>
+                                    </dd>
+
+                                    <dt class="col-sm-3">
+                                        <p
+                                            class="fs-5 fw-normal"
+                                            style="color: var(--bs-red)"
+                                        >
+                                            App Development
+                                        </p>
+                                    </dt>
+                                    <dd class="col-sm-9">
+                                        <p class="lead text">
+                                            Android Studios Framework, Currently
+                                            learning Flutter/Dart and Swift.
                                         </p>
                                     </dd>
                                 </dl>
@@ -673,17 +684,17 @@
                                             class="highlight-name fs-3"
                                             style="color: var(--bs-red)"
                                         >
-                                            Archbishop Mitty High School
+                                            University of California - Berkeley
                                         </h3>
                                         <h4 class="loc fs-4 fw-light">
                                             San Jose, California
                                         </h4>
                                         <h4 class="fs-4 fw-light">
-                                            Graduation May 2021
+                                            Graduation May 2025
                                         </h4>
 
                                         <a
-                                            href="https://docs.google.com/document/d/1JCZK4_QORThq3AR0Ojhuvx463SSnY9vBORd3EkZWUWA/edit?usp=sharing"
+                                            href="https://drive.google.com/file/d/1ZWZiDR0R8oOySGoxodo0X3vgVU2NuHWk/view?usp=sharing"
                                             target="_blank"
                                             role="button"
 
@@ -705,7 +716,10 @@
                                         <h4 class="topic fs-5">Academics</h4>
                                         <ul>
                                             <li>
-                                                GPA: 3.99/4.00 | 4.64
+                                                GPA: 3.86
+                                            </li>
+                                            <li>                  
+                                                Highschool GPA: 3.99 | 4.64
                                             </li>
                                             <li>ACT: 35/36 (99+ Percentile)</li>
                                             <li>
@@ -719,6 +733,9 @@
                                             Relevant Classes
                                         </h4>
                                         <ul>
+                                            <li>
+                                                CS 61A: The Structure and Interpretation of Computer Programs
+                                            </li>
                                             <li>
                                                 Neural Networks and Deep
                                                 Learning Certification
